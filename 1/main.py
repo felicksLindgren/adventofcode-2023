@@ -17,9 +17,12 @@ def sum_of_calibrations():
 
     print(sum)
 
-# sum_of_calibrations()
+sum_of_calibrations()
 
 # Part 2
+
+# Read in input.txt
+calculations = open("input.txt", "r")
 
 valid_numbers = {
     "one": "one1one",
