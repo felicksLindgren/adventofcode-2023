@@ -46,8 +46,7 @@ def part_2():
 
     for line in record_of_games:
         line = line.strip()
-        title, game = line.split(":")
-        id = title.split(" ")[1]
+        _, game = line.split(":")
         sets = game.strip().split(";")
 
         bag_of_cubes = {
