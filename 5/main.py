@@ -74,7 +74,7 @@ def part_2():
     for start, end in pair_seeds:
         start = int(start)
         end = int(end) + start
-        seeds = range(start, end)
+        seeds = range(start, end) # This is not good for performance, but it works
 
         current_map = ""
         map = {}
